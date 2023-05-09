@@ -1,1 +1,4 @@
 اینجا نکات و یادآوری های پروژه قرار خواهد گرفت :)
+
+- For build css:
+npx tailwindcss -i ./assets/css/input.css -o ./assets/css/style.css --watch
