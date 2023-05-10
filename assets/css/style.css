@@ -57,6 +57,16 @@ html {
 2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.
 */
 
+/* Temporary */
+/* body {
+  color: #85a4c4;
+  background-color: #f0f0f3;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Estedad, sans-serif;
+} */
+/* Temporary End */
+
 body {
   margin: 0;
   /* 1 */
