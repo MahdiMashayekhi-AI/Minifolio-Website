@@ -2,6 +2,11 @@
 module.exports = {
   content: ["./pages/**/*.html"],
   theme: {
+    colors: {
+      primary: '#5c6ac4',
+      secondary: '#ecc94b',
+      // ...
+    },
     neumorphismColor: {
       gray: {
         100: "#AAA",
@@ -10,5 +15,9 @@ module.exports = {
       },
     },
   },
-  plugins: [require("tailwindcss-neumorphism")],
+  plugins: [
+    require("tailwindcss"),
+    require("autoprefixer"),
+    require("tailwindcss-neumorphism"),
+  ],
 }
