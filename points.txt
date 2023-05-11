@@ -2,3 +2,17 @@
 
 - For build css:
 npx tailwindcss -i ./assets/css/input.css -o ./assets/css/style.css --watch
+
+- Color of pages:
+Icon & Logo: linear-gradient(135deg, #9ec5ff, #e1a6f8);
+BG: #f0f0f3
+Color: #85a4c4
+
+- Shadow:
+Normal: 6px 6px 10px rgba(174, 174, 192, .4), -6px -6px 10px #fff;
+Hover: 11px 11px 18px rgba(174, 174, 192, .4), -10px -10px 16px #fff;
+-6px -6px 10px #fff, 6px 6px 10px rgba(174, 174, 192, .4);
+-11px -11px 20px #fff, 11px 11px 20px rgba(174, 174, 192, .4);
+
+inset -11px -11px 20px #fff, inset 11px 11px 20px rgba(174, 174, 192, .4);
+inset -6px -6px 10px #fff, inset 6px 6px 10px rgba(174, 174, 192, .4);
