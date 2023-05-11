@@ -5,9 +5,22 @@
 /* CSS Variable */
 @layer base {
   :root {
+    font-family: Estedad, sans-serif;
     --color-primary: 255 115 179;
     --color-secondary: 111 114 185;
     /* ... */
   }
 }
 
+@layer components {
+  /* Give This Class For Neophormism Boxes */
+  .neop-box {
+    box-shadow: 6px 6px 10px rgba(174, 174, 192, 0.4), -6px -6px 10px #fff;
+  }
+  /* Give This Class For Gradient Icons */
+  .icon-color {
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(135deg, #9ec5ff, #e1a6f8);
+    -webkit-background-clip: text;
+  }
+}
