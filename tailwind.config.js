@@ -13,7 +13,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         heroimage: "url(../images/hero.jpg)",
-      },
+      }
     },
   },
   plugins: [require("tailwindcss"), require("autoprefixer")],
