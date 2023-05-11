@@ -13,10 +13,41 @@
 }
 
 @layer components {
-  /* Give This Class For Neophormism Boxes */
+  /* 
+  Give This Class For Neophorism Boxes 
+  Neophorism + Links 
+  */
   .neop-box {
     box-shadow: 6px 6px 10px rgba(174, 174, 192, 0.4), -6px -6px 10px #fff;
   }
+
+  a.neop-box:hover {
+    box-shadow: 11px 11px 18px rgba(174, 174, 192, 0.4), -10px -10px 16px #fff;
+  }
+
+  .neop-box:hover .link-arrow {
+    opacity: 1;
+  }
+
+  .neop-box:hover .link-arrow i {
+    transform: rotate(90deg);
+  }
+
+  /* Social Medias Neophorism + Hover & Active */
+  .neop-social {
+    transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);
+    box-shadow: 6px 6px 10px rgba(174, 174, 192, 0.4), -6px -6px 10px #fff;
+    @apply h-11 w-11 rounded-full text-social flex items-center justify-center;
+  }
+
+  .neop-social:hover {
+    box-shadow: 11px 11px 18px rgba(174, 174, 192, 0.4), -11px -11px 18px #fff;
+  }
+  .neop-social:active {
+    box-shadow: inset 6px 6px 10px rgba(174, 174, 192, 0.4),
+      inset -6px -6px 10px #fff;
+  }
+
   /* Give This Class For Gradient Icons */
   .icon-color {
     -webkit-text-fill-color: transparent;
