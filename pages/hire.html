@@ -11,11 +11,60 @@
   <link rel="stylesheet" href="../assets/css/style.css" />
 </head>
 <body class="bg-green-200">
-  <header>
-    <h1 class="text-3xl font-bold underline">
-      Header Section
-    </h1>
-  </header>
+    <!-- Header Design -->
+    <header
+      class="my-6 flex justify-between items-center container px-7 max-w-[80rem] mx-auto"
+    >
+      <div
+        id="header-overlay"
+        class="flex flex-col items-center justify-center fixed top-0 left-0 h-screen w-screen bg-bgcolor z-30 invisible transition-all duration-500 opacity-0"
+      >
+        <nav class="flex flex-col text-center space-y-7">
+          <a
+            class="neop-button text-social text-2xl px-10 py-5 rounded-2xl transition-shadow duration-[400ms]"
+            href=""
+            >خانه</a
+          >
+          <a
+            class="neop-button text-social text-2xl px-10 py-5 rounded-2xl transition-shadow duration-[400ms]"
+            href=""
+            >درباره من</a
+          >
+          <a
+            class="neop-button text-social text-2xl px-10 py-5 rounded-2xl transition-shadow duration-[400ms]"
+            href=""
+            >نمونه کار ها</a
+          >
+          <a
+            class="neop-button text-social text-2xl px-10 py-5 rounded-2xl transition-shadow duration-[400ms]"
+            href=""
+            >وبلاگ</a
+          >
+        </nav>
+
+        <div class="flex mt-10">
+          <a class="neop-social mx-2" href=""><i class="fab fa-twitter"></i></a>
+          <a class="neop-social mx-2" href=""
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a class="neop-social mx-2" href=""><i class="fab fa-behance"></i></a>
+          <a class="neop-social mx-2" href=""
+            ><i class="fab fa-facebook"></i
+          ></a>
+        </div>
+      </div>
+      <a
+        href=""
+        class="icon-color font-extrabold text-4xl hover:opacity-90 transition-opacity"
+        >نئورزومه .</a
+      >
+      <button
+        class="neop-social w-12 h-12 box-content text-3xl p-3 z-40"
+        id="menu-button"
+      >
+        <i class="fa fa-bars"></i>
+      </button>
+    </header>
 
   <main>
     <h1 class="text-3xl font-bold underline">
@@ -23,10 +72,35 @@
     </h1>
   </main>
 
-  <footer>
-    <h1 class="text-3xl font-bold underline">
-      Footer Section
-    </h1>
-  </footer>
+    <!-- Footer Design -->
+    <footer class="flex flex-col items-center my-16">
+      <div class="flex flex-col md:flex-row items-center">
+        <a
+          href=""
+          class="icon-color font-extrabold text-4xl mb-4 md:mb-0 hover:opacity-90 transition-opacity"
+          >نئورزومه .</a
+        >
+        <ul class="flex text-lg space-x-5">
+          <li class="mx-5"><a href="">خانه</a></li>
+          <li class=""><a href="">تماس با من</a></li>
+          <li class=""><a href="">نمونه کار ها</a></li>
+          <li class=""><a href="">درباره من</a></li>
+        </ul>
+      </div>
+
+      <div class="flex my-10">
+        <a class="neop-social mx-2" href=""><i class="fab fa-twitter"></i></a>
+        <a class="neop-social mx-2" href=""><i class="fab fa-linkedin"></i></a>
+        <a class="neop-social mx-2" href=""><i class="fab fa-behance"></i></a>
+        <a class="neop-social mx-2" href=""><i class="fab fa-facebook"></i></a>
+        <a class="neop-social mx-2" href=""><i class="fab fa-youtube"></i></a>
+      </div>
+
+      <p class="text-text text-xs">
+        © تمامی حقوق برای قالب <a href=""> نئورزومه </a>محفوظ است.
+      </p>
+    </footer>
+
+    <script src="../assets/js/script.js"></script>
 </body>
 </html>

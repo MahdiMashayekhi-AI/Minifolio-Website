@@ -10,6 +10,10 @@
     --color-secondary: 111 114 185;
     /* ... */
   }
+
+  a {
+    @apply text-social transition-opacity hover:opacity-80
+  }
 }
 
 @layer utilities {
@@ -52,11 +56,25 @@
   .neop-social:hover {
     box-shadow: 11px 11px 18px rgba(174, 174, 192, 0.4), -11px -11px 18px #fff;
   }
-  .neop-social:active {
+  .neop-social:active , .neop-social.active {
     box-shadow: inset 6px 6px 10px rgba(174, 174, 192, 0.4),
       inset -6px -6px 10px #fff;
   }
+  /* Neophorism Buttons Styles */
+  .neop-button {
+    box-shadow: -7px -7px 12px #fff, 7px 7px 12px rgba(174, 174, 192, 0.4);
+    border: 2px solid rgba(255, 255, 255, 0);
+  }
 
+  .neop-button:hover {
+    border-color: rgba(255, 255, 255, 0.05);
+    box-shadow: -13px -13px 20px #fff, 13px 13px 20px rgba(174, 174, 192, 0.4);
+  }
+
+  .neop-button:active {
+    box-shadow: inset -6px -6px 10px #fff,
+      inset 6px 6px 10px rgba(174, 174, 192, 0.4) !important;
+  }
   /* Give This Class For Gradient Icons */
   .icon-color {
     -webkit-text-fill-color: transparent;
