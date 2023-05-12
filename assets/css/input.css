@@ -12,6 +12,15 @@
   }
 }
 
+@layer utilities {
+  .ltr {
+    direction: ltr;
+  }
+  .rtl {
+    direction: rtl;
+  }
+}
+
 @layer components {
   /* 
   Give This Class For Neophorism Boxes 
