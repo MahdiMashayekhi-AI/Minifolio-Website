@@ -2,8 +2,8 @@
 
 <h2>Mahdi</h2>
 <ul>
-<li>Task 1</li>
-<li>Task 2</li>
+<li>Resume</li>
+<li>Portfolio</li>
 <li>Task 3</li>
 </ul>
 
@@ -11,8 +11,8 @@
 
 <h2>Armin</h2>
 <ul>
-<li>Task 1</li>
-<li>Task 2</li>
+<li>About</li>
+<li>Header & Footer</li>
 <li>Task 3</li>
 </ul>
 
@@ -20,16 +20,16 @@
 
 <h2>Mohammad Mahdi</h2>
 <ul>
-<li>Task 1</li>
-<li>Task 2</li>
-<li>Task 3</li>
+<li>Home</li>
+<li>Contact</li>
+<li>Blog</li>
 </ul>
 
 </hr>
 
 <h2>Abolfazl</h2>
 <ul>
-<li>Task 1</li>
+<li>Bot</li>
 <li>Task 2</li>
 <li>Task 3</li>
 </ul>
