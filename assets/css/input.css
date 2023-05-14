@@ -10,10 +10,6 @@
     --color-secondary: 111 114 185;
     /* ... */
   }
-
-  a {
-    @apply text-social transition-opacity hover:opacity-80
-  }
 }
 
 @layer components {

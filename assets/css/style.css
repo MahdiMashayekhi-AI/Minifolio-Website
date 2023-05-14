@@ -684,6 +684,10 @@ a.neop-box:hover {
   top: 0px;
 }
 
+.bottom-4 {
+  bottom: 1rem;
+}
+
 .z-30 {
   z-index: 30;
 }
@@ -796,6 +800,10 @@ a.neop-box:hover {
   margin-top: 2rem;
 }
 
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
 .box-content {
   box-sizing: content-box;
 }
@@ -858,6 +866,10 @@ a.neop-box:hover {
 
 .h-\[4\.5rem\] {
   height: 4.5rem;
+}
+
+.h-11 {
+  height: 2.75rem;
 }
 
 .w-1\/2 {
@@ -943,6 +955,10 @@ a.neop-box:hover {
 
 .grid-cols-4 {
   grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.flex-row {
+  flex-direction: row;
 }
 
 .flex-col {
@@ -1143,6 +1159,11 @@ a.neop-box:hover {
 .py-\[1\.25rem\] {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .pb-8 {
