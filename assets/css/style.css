@@ -429,18 +429,6 @@ video {
   /* ... */
 }
 
-a {
-  --tw-text-opacity: 1;
-  color: rgb(120 137 179 / var(--tw-text-opacity));
-  transition-property: opacity;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
-a:hover {
-  opacity: 0.8;
-}
-
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -947,14 +935,6 @@ a.neop-box:hover {
   gap: 1.5rem;
 }
 
-.gap-10 {
-  gap: 2.5rem;
-}
-
-.gap-5 {
-  gap: 1.25rem;
-}
-
 .space-x-5 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(1.25rem * var(--tw-space-x-reverse));
@@ -1015,14 +995,21 @@ a.neop-box:hover {
   border-radius: 2rem;
 }
 
+<<<<<<< HEAD
 .rounded-full {
   border-radius: 9999px;
 }
 
 
 
+=======
+>>>>>>> b8ff12a98e51d1e57b2796df38cca80d63fe1747
 .rounded-\[50px\] {
   border-radius: 50px;
+}
+
+.rounded-full {
+  border-radius: 9999px;
 }
 
 .border-2 {
@@ -1100,11 +1087,6 @@ a.neop-box:hover {
 .py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-}
-
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
 }
 
 .py-5 {
@@ -1213,7 +1195,8 @@ a.neop-box:hover {
 }
 
 .underline {
-  text-decoration-line: underline;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
 }
 
 .opacity-0 {
