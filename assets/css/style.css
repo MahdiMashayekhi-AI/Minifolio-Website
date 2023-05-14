@@ -402,7 +402,7 @@ embed,
 object {
   display: block;
   /* 1 */
-  vertical-align: middle;
+
   /* 2 */
 }
 
@@ -649,7 +649,7 @@ a.neop-box:hover {
 .icon-color {
   -webkit-text-fill-color: transparent;
   background-image: linear-gradient(135deg, #9ec5ff, #e1a6f8);
-  -webkit-background-clip: text;
+
 }
 
 .invisible {
@@ -670,6 +670,14 @@ a.neop-box:hover {
 
 .bottom-6 {
   bottom: 1.5rem;
+}
+
+.bottom-5 {
+  bottom: 1rem;
+}
+
+.bottom-4 {
+  bottom: -0.9rem;
 }
 
 .left-0 {
@@ -756,6 +764,10 @@ a.neop-box:hover {
   margin-bottom: 1.25rem;
 }
 
+.mb-6 {
+  margin-bottom: 1.50rem;
+}
+
 .mr-10 {
   margin-right: 2.5rem;
 }
@@ -802,6 +814,10 @@ a.neop-box:hover {
 
 .h-10 {
   height: 2.5rem;
+}
+
+.h-11 {
+  height: 5.5rem;
 }
 
 .h-12 {
@@ -868,7 +884,9 @@ a.neop-box:hover {
   --tw-rotate: -45deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
-
+.cell-2{
+  width: 18rem;
+}
 .list-disc {
   list-style-type: disc;
 }
@@ -879,6 +897,26 @@ a.neop-box:hover {
 
 .grid-cols-4 {
   grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.bottom-content{
+  width: 100%;
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    justify-content: space-between;
+    align-items: flex-end;
+    display: grid;
+}
+.bottom-content.absolute{
+    align-content: center;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    position: absolute;
+    top: auto;
+    bottom: 2.5rem;
 }
 
 .flex-col {
@@ -929,6 +967,38 @@ a.neop-box:hover {
   margin-bottom: calc(1.75rem * var(--tw-space-y-reverse));
 }
 
+.input-wrapper{
+  width: 22rem;
+  border-radius: 1rem;
+  box-shadow: inset 6px 6px 10px rgba(174, 174, 192, .4), inset -6px -6px 10px #fff;
+}
+
+.form-input{
+  background-color: rgba(0, 0, 0, 0);
+    border: 1px #000;
+    padding: 8px 12px;
+    width: 22rem
+}
+.w-button{
+  color: #85a4c4;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background-color: #f0f0f3;
+    border-radius: 1rem;
+    padding: 1.25rem 2.5rem;
+    font-weight: 400;
+    line-height: 1;
+    transition: all .3s;
+    box-shadow: 6px 6px 10px rgba(174, 174, 192, .4), -6px -6px 10px #fff;
+    cursor: pointer;
+}
+
+.w-button:hover{
+ 
+  box-shadow: 10px 10px 16px rgba(174, 174, 192, .4), -10px -10px 16px #fff;
+}
+
 .overflow-hidden {
   overflow: hidden;
 }
@@ -949,9 +1019,7 @@ a.neop-box:hover {
   border-radius: 9999px;
 }
 
-.rounded-\[\] {
-  border-radius: ;
-}
+
 
 .rounded-\[50px\] {
   border-radius: 50px;
