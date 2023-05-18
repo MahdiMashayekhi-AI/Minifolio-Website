@@ -50,7 +50,7 @@
   /* Neophorism Buttons Styles */
   .neop-button {
     box-shadow: -7px -7px 12px #fff, 7px 7px 12px rgba(174, 174, 192, 0.4);
-    border: 2px solid rgba(255, 255, 255, 0);
+    border: 1px solid rgba(255, 255, 255, 0);
   }
 
   .neop-button:hover {

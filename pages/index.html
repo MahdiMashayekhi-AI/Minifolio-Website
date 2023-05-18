@@ -4,7 +4,7 @@
     <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>مینی پورتفولیو - همکاری</title>
+    <title>مینی پورتفولیو</title>
     <link rel="shortcut icon" href="../assets/images/favicon.svg" type="image/x-icon">
     <link rel="preconnect" href="//fdn.fontcdn.ir"/>
     <link rel="preconnect" href="//v1.fontapi.ir"/>
@@ -12,8 +12,7 @@
     <link rel="stylesheet" href="../assets/css/all.min.css"/>
     <link rel="stylesheet" href="../assets/css/style.css"/>
   </head>
-  <body
-    class="bg-bgcolor">
+  <body class="bg-bgcolor">
     <!-- Header Design -->
     <header class="my-6 flex justify-between items-center container px-7 max-w-[80rem] mx-auto">
       <div id="header-overlay" class="flex flex-col items-center justify-center fixed top-0 left-0 h-screen w-screen bg-bgcolor z-30 invisible transition-all duration-500 opacity-0">
@@ -45,36 +44,25 @@
       </button>
     </header>
 
-    <main class="w-4/5 mx-auto grid grid-cols-2 grid-rows-2 gap-5 lg:grid-cols-4 mb-5">
-      <div class="neop-box col-span-2 rounded-[2rem]">
+    <!-- Main Design -->
+    <main class="container max-w-[80rem] mx-auto grid grid-cols-4 gap-6 p-5">
+      <!-- Hero Section -->
+      <a class="neop-box relative col-span-2 rounded-[2rem] transition-shadow duration-300">
         <img class="m-8" src="../assets/images/avatar.png" alt="">
-        <p class="text-social font-semibold text-[2rem] mx-8">
+        <p class="text-social text-[2rem] mx-8 text-3xl font-bold">
           سلام امیرحسین هستم!
         </p>
         <div class="flex items-center justify-between px-5 py-2">
           <p class="text-social p-5">
             طراح دیجیتال از ایران.
           </p>
-          <a class="border border-text p-3 rounded-full" href="">
-            <i class="fa-solid fa-arrow-up link text-text transition-transform duration-300 -rotate-45"></i>
-          </a>
+          <div class="link-arrow border-2 border-text w-10 h-10 rounded-full flex items-center justify-center left-6 bottom-6 opacity-50 transition-opacity duration-400">
+            <i class="fa-solid fa-arrow-up text-text transition-transform duration-300 -rotate-45"></i>
+          </div>
         </div>
-      </div>
-      <div class="neop-box rounded-[2rem]">
-        <i class="fa fa-bolt icon-color text-5xl mx-8 mt-28"></i>
-        <p class="text-social mx-8 font-semibold text-[2rem]">
-          نمونه کار ها
-        </p>
-        <div class="flex items-center justify-between mx-8 my-5">
-          <p class="text-social">
-            کاوش
-          </p>
-          <a class="border border-text p-3 rounded-full" href="">
-            <i class="fa-solid fa-arrow-up link text-text transition-transform duration-300 -rotate-45"></i>
-          </a>
-        </div>
-      </div>
-      <div class="neop-box rounded-[2rem]">
+      </a>
+      <!-- Resume Section -->
+      <a class="neop-box relative col-span-1 rounded-[2rem] transition-shadow duration-300">
         <i class="fa fa-user icon-color text-5xl mx-8 mt-28"></i>
         <p class="text-social mx-8 font-semibold text-[2rem]">
           رزومه من
@@ -83,34 +71,52 @@
           <p class="text-social">
             نمایش بیشتر
           </p>
-          <a class="border border-text p-3 rounded-full" href="">
-            <i class="fa-solid fa-arrow-up link text-text transition-transform duration-300 -rotate-45"></i>
-          </a>
+          <div class="link-arrow border-2 border-text w-10 h-10 rounded-full flex items-center justify-center left-6 bottom-6 opacity-50 transition-opacity duration-400">
+            <i class="fa-solid fa-arrow-up text-text transition-transform duration-300 -rotate-45"></i>
+          </div>
         </div>
-      </div>
-      <div class="neop-box rounded-[2rem]">
-        <i class="fa fa-user icon-color text-8xl mt-[6rem] mr-[6rem]"></i>
+      </a>
+      <!-- Example Section -->
+      <a class="neop-box relative col-span-1 rounded-[2rem] transition-shadow duration-300">
+        <i class="fa fa-bolt icon-color text-5xl mx-8 mt-28"></i>
+        <p class="text-social mx-8 font-semibold text-[2rem]">
+          نمونه کار ها
+        </p>
+        <div class="flex items-center justify-between mx-8 my-5">
+          <p class="text-social">
+            کاوش
+          </p>
+          <div class="link-arrow border-2 border-text w-10 h-10 rounded-full flex items-center justify-center left-6 bottom-6 opacity-50 transition-opacity duration-400">
+            <i class="fa-solid fa-arrow-up text-text transition-transform duration-300 -rotate-45"></i>
+          </div>
+        </div>
+      </a>
+      <!-- Blog Section -->
+      <a class="neop-box relative col-span-1 rounded-[2rem] transition-shadow duration-300">
+        <i class="fa fa-pencil icon-color text-8xl mt-[6rem] mr-[6rem]"></i>
         <div class="flex items-center justify-between mx-8 mt-8">
           <p class="text-social">
             وبلاگ
           </p>
-          <a class="border border-text p-3 rounded-full" href="">
-            <i class="fa-solid fa-arrow-up link text-text transition-transform duration-300 -rotate-45"></i>
-          </a>
+          <div class="link-arrow border-2 border-text w-10 h-10 rounded-full flex items-center justify-center left-6 bottom-6 opacity-50 transition-opacity duration-400">
+            <i class="fa-solid fa-arrow-up text-text transition-transform duration-300 -rotate-45"></i>
+          </div>
         </div>
-      </div>
-      <div class="neop-box rounded-[2rem]">
-        <i class="fa fa-user icon-color text-8xl mt-[6rem] mr-[6rem]"></i>
+      </a>
+      <!-- Email Section -->
+      <a class="neop-box relative col-span-1 rounded-[2rem] transition-shadow duration-300">
+        <i class="fa fa-envelope icon-color text-8xl mt-[6rem] mr-[6rem]"></i>
         <div class="flex items-center justify-between mx-8 mt-8">
           <p class="text-social">
             ایمیل
           </p>
-          <a class="border border-text p-3 rounded-full" href="">
-            <i class="fa-solid fa-arrow-up link text-text transition-transform duration-300 -rotate-45"></i>
-          </a>
+          <div class="link-arrow border-2 border-text w-10 h-10 rounded-full flex items-center justify-center left-6 bottom-6 opacity-50 transition-opacity duration-400">
+            <i class="fa-solid fa-arrow-up text-text transition-transform duration-300 -rotate-45"></i>
+          </div>
         </div>
-      </div>
-      <div class="neop-box col-span-2 rounded-[2rem]">
+      </a>
+      <!-- Servicecs Section -->
+      <a class="neop-box relative col-span-2 rounded-[2rem] transition-shadow duration-300">
         <p class="text-social font-semibold text-[2rem] m-8">
           من چی هستم ؟
         </p>
@@ -138,9 +144,30 @@
           <p class="text-social">
             سرویس ها
           </p>
-          <a class="border border-text p-3 rounded-full" href="">
-            <i class="fa-solid fa-arrow-up link text-text transition-transform duration-300 -rotate-45"></i>
-          </a>
+          <div class="link-arrow border-2 border-text w-10 h-10 rounded-full flex items-center justify-center left-6 bottom-6 opacity-50 transition-opacity duration-400">
+            <i class="fa-solid fa-arrow-up text-text transition-transform duration-300 -rotate-45"></i>
+          </div>
+        </div>
+      </a>
+      <!-- Hire Section -->
+      <a class="w-full h-full neop-box relative rounded-[2rem] p-9 pt-[7rem] lg:col-span-2 col-span-4 transition-shadow duration-300 order-1 lg:order-none" href="hire.html">
+        <i class="fa fa-rocket icon-color text-5xl inline-block"></i>
+        <h2 class="icon-color text-4xl my-5 font-bold">همین حالا مشترک شوید</h2>
+        <div class="link-arrow border-2 border-text w-10 h-10 absolute rounded-full flex items-center justify-center left-6 bottom-6 opacity-50 transition-opacity duration-400">
+          <i class="fa-solid fa-arrow-up text-text transition-transform duration-300 -rotate-45"></i>
+        </div>
+        <div class="text-text mt-5">بیاید با هم کار کنیم !</div>
+      </a>
+      <!-- Newsletter Section -->
+      <div class="neop-box relative col-span-2 rounded-[2rem] p-8 transition-shadow duration-300" href="">  
+        <i class="fa fa-newspaper icon-color text-5xl inline-block mb-[1rem]"></i>
+        <h2 class="text-social font-semibold text-[2rem] my-[10px]">اخبار و بروزرسانی ها</h2>
+        <div class="text-text mt-5">دنبال کردن اخبار و اطلاعات من :)</div>
+        <div class="w-full h-full mt-[2rem]">
+          <form class="flex flex-wrap items-center" action="" method="" name="" aria-label="">
+              <input class="neop-badge bg-bgcolor text-text w-[18rem] min-h-[3.5rem] rounded-[1rem] p-[1rem]" type="email" name="" id="">
+            <input class="neop-button text-text text-center items-center justify-center rounded-[1rem] py-[1.25rem] px-[2.5rem]" type="submit" value="دنبال کردن">
+          </form>
         </div>
       </div>
     </main>
