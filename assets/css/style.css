@@ -749,6 +749,11 @@ a.neop-box:hover , .neop-box.hover:hover {
   margin-bottom: 4rem;
 }
 
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
 .my-24 {
   margin-top: 6rem;
   margin-bottom: 6rem;
@@ -784,13 +789,17 @@ a.neop-box:hover , .neop-box.hover:hover {
   margin-bottom: 10px;
 }
 
-.my-2 {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+.my-12 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 .mb-10 {
   margin-bottom: 2.5rem;
+}
+
+.mb-12 {
+  margin-bottom: 3rem;
 }
 
 .mb-2 {
@@ -875,10 +884,6 @@ a.neop-box:hover , .neop-box.hover:hover {
 
 .mt-\[6rem\] {
   margin-top: 6rem;
-}
-
-.mb-12 {
-  margin-bottom: 3rem;
 }
 
 .box-content {
@@ -1059,8 +1064,8 @@ a.neop-box:hover , .neop-box.hover:hover {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
-.flex-row {
-  flex-direction: row;
+.grid-cols-6 {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
 }
 
 .flex-col {
@@ -1143,18 +1148,6 @@ a.neop-box:hover , .neop-box.hover:hover {
   margin-bottom: calc(1.75rem * var(--tw-space-y-reverse));
 }
 
-.space-y-5 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
-}
-
-.space-y-4 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
-}
-
 .overflow-hidden {
   overflow: hidden;
 }
@@ -1197,6 +1190,10 @@ a.neop-box:hover , .neop-box.hover:hover {
 
 .rounded-xl {
   border-radius: 0.75rem;
+}
+
+.rounded {
+  border-radius: 0.25rem;
 }
 
 .border-2 {
@@ -1337,11 +1334,6 @@ a.neop-box:hover , .neop-box.hover:hover {
   padding-bottom: 8px;
 }
 
-.px-3 {
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
-}
-
 .pb-10 {
   padding-bottom: 2.5rem;
 }
@@ -1372,6 +1364,14 @@ a.neop-box:hover , .neop-box.hover:hover {
 
 .pt-\[7rem\] {
   padding-top: 7rem;
+}
+
+.pl-\[10px\] {
+  padding-left: 10px;
+}
+
+.pb-\[10px\] {
+  padding-bottom: 10px;
 }
 
 .text-center {
@@ -1480,20 +1480,12 @@ a.neop-box:hover , .neop-box.hover:hover {
   line-height: 1.5;
 }
 
-.leading-\[1\.7\] {
-  line-height: 1.7;
-}
-
 .leading-\[1\] {
   line-height: 1;
 }
 
 .leading-\[1rem\] {
   line-height: 1rem;
-}
-
-.leading-\[3rem\] {
-  line-height: 3rem;
 }
 
 .text-social {
@@ -1509,14 +1501,6 @@ a.neop-box:hover , .neop-box.hover:hover {
 .text-title {
   --tw-text-opacity: 1;
   color: rgb(120 137 179 / var(--tw-text-opacity));
-}
-
-.text-\[4xl\] {
-  color: 4xl;
-}
-
-.text-\[2\] {
-  color: 2;
 }
 
 .underline {
@@ -1615,17 +1599,8 @@ a.neop-box:hover , .neop-box.hover:hover {
 }
 
 @media (min-width: 768px) {
-  .md\:mx-3 {
-    margin-left: 0.75rem;
-    margin-right: 0.75rem;
-  }
-
   .md\:mb-0 {
     margin-bottom: 0px;
-  }
-
-  .md\:grid {
-    display: grid;
   }
 
   .md\:grid-cols-2 {
@@ -1636,28 +1611,9 @@ a.neop-box:hover , .neop-box.hover:hover {
     flex-direction: row;
   }
 
-  .md\:px-3 {
-    padding-left: 0.75rem;
-    padding-right: 0.75rem;
-  }
-
-  .md\:px-0 {
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-
-  .md\:text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-  }
-
   .md\:text-5xl {
     font-size: 3rem;
     line-height: 1;
-  }
-
-  .md\:leading-\[3rem\] {
-    line-height: 3rem;
   }
 }
 
@@ -1678,6 +1634,10 @@ a.neop-box:hover , .neop-box.hover:hover {
     grid-column: span 3 / span 3;
   }
 
+  .lg\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .lg\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
@@ -1686,23 +1646,19 @@ a.neop-box:hover , .neop-box.hover:hover {
     grid-template-columns: repeat(5, minmax(0, 1fr));
   }
 
-  .lg\:grid-cols-2 {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
   .lg\:px-0 {
     padding-left: 0px;
     padding-right: 0px;
   }
 
-  .lg\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
-  }
-
   .lg\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
+  }
+
+  .lg\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
   }
 
   .lg\:leading-\[3rem\] {
