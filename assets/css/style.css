@@ -886,6 +886,18 @@ a.neop-box:hover , .neop-box.hover:hover {
   margin-top: 6rem;
 }
 
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.ml-3 {
+  margin-left: 0.75rem;
+}
+
+.ml-5 {
+  margin-left: 1.25rem;
+}
+
 .box-content {
   box-sizing: content-box;
 }
@@ -1444,6 +1456,11 @@ a.neop-box:hover , .neop-box.hover:hover {
   line-height: 1rem;
 }
 
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -1646,6 +1663,10 @@ a.neop-box:hover , .neop-box.hover:hover {
     grid-template-columns: repeat(5, minmax(0, 1fr));
   }
 
+  .lg\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
   .lg\:px-0 {
     padding-left: 0px;
     padding-right: 0px;
@@ -1663,5 +1684,13 @@ a.neop-box:hover , .neop-box.hover:hover {
 
   .lg\:leading-\[3rem\] {
     line-height: 3rem;
+  }
+
+  .lg\:leading-\[2rem\] {
+    line-height: 2rem;
+  }
+
+  .lg\:leading-\[2\.5rem\] {
+    line-height: 2.5rem;
   }
 }
