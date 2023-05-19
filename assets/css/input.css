@@ -21,7 +21,7 @@
     box-shadow: 6px 6px 10px rgba(174, 174, 192, 0.4), -6px -6px 10px #fff;
   }
 
-  a.neop-box:hover {
+  a.neop-box:hover , .neop-box.hover:hover {
     box-shadow: 11px 11px 18px rgba(174, 174, 192, 0.4), -10px -10px 16px #fff;
   }
 
@@ -58,7 +58,7 @@
     box-shadow: -13px -13px 20px #fff, 13px 13px 20px rgba(174, 174, 192, 0.4);
   }
 
-  .neop-button:active {
+  .neop-button:active , .neop-button.active {
     box-shadow: inset -6px -6px 10px #fff,
       inset 6px 6px 10px rgba(174, 174, 192, 0.4) !important;
   }
