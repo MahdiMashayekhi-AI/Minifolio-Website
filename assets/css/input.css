@@ -6,13 +6,26 @@
 @layer base {
   :root {
     font-family: Estedad, sans-serif;
-    --color-primary: 255 115 179;
-    --color-secondary: 111 114 185;
-    /* ... */
   }
 }
 
 @layer components {
+  /* Header Card */
+  .header-card {
+    @apply container flex justify-between items-center max-w-[80rem] px-7 mx-auto my-6;
+  }
+  /* Main Card */
+  .main-card {
+    @apply container max-w-[80rem] mx-auto p-5;
+  }
+  /* Footer Card */
+  .footer-card {
+    @apply flex flex-col items-center my-16;
+  }
+  /* Box Card */
+  .box-card {
+    @apply neop-box relative rounded-[2rem] transition-shadow duration-300;
+  }
   /* 
   Give This Class For Neophorism Boxes 
   Neophorism + Links 
