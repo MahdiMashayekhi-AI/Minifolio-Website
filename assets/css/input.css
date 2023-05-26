@@ -7,6 +7,19 @@
   :root {
     font-family: Estedad, sans-serif;
   }
+
+  input , textarea {
+    box-shadow: inset 6px 6px 10px rgba(174, 174, 192, .4), inset -6px -6px 10px #fff;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px #000;
+    color: #85a4c4;
+    border-radius: 1rem;
+    padding: 1rem;
+    display: block;
+    width: 100%;
+    line-height: 1.5;
+    vertical-align: middle;
+  }
 }
 
 @layer components {
