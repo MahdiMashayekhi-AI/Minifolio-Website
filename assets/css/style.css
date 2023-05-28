@@ -1009,6 +1009,14 @@ a.neop-box:hover , .neop-box.hover:hover {
   margin-top: 6rem;
 }
 
+.mt-\[\] {
+  margin-top: ;
+}
+
+.mt-\[3rem\] {
+  margin-top: 3rem;
+}
+
 .box-content {
   box-sizing: content-box;
 }
@@ -1149,8 +1157,22 @@ a.neop-box:hover , .neop-box.hover:hover {
   max-width: 80rem;
 }
 
+.max-w-\[767\] {
+  max-width: 767;
+}
+
+.max-w-\[767px\] {
+  max-width: 767px;
+}
+
 .grow {
   flex-grow: 1;
+}
+
+.border-spacing-10 {
+  --tw-border-spacing-x: 2.5rem;
+  --tw-border-spacing-y: 2.5rem;
+  border-spacing: var(--tw-border-spacing-x) var(--tw-border-spacing-y);
 }
 
 .-rotate-45 {
@@ -1307,8 +1329,20 @@ a.neop-box:hover , .neop-box.hover:hover {
   border-radius: 0.75rem;
 }
 
+.rounded-\[\] {
+  border-radius: ;
+}
+
 .border-2 {
   border-width: 2px;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-8 {
+  border-width: 8px;
 }
 
 .border-text {
@@ -1324,6 +1358,10 @@ a.neop-box:hover , .neop-box.hover:hover {
 .bg-text {
   --tw-bg-opacity: 1;
   background-color: rgb(133 164 196 / var(--tw-bg-opacity));
+}
+
+.bg-cover {
+  background-size: cover;
 }
 
 .object-cover {
@@ -1374,6 +1412,18 @@ a.neop-box:hover , .neop-box.hover:hover {
 
 .p-\[1rem\] {
   padding: 1rem;
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
+.p-\[2\.5\] {
+  padding: 2.5;
+}
+
+.p-\[2\.5rem\] {
+  padding: 2.5rem;
 }
 
 .px-10 {
