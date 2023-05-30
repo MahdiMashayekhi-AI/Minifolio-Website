@@ -1,4 +1,4 @@
 # Minifolio-Website
 Mini Portfolio: A concise showcase of my skills and projects, highlighting my expertise in web design and development.
 
-![ScreenShot](assets/images/Featured-image.png)
+![ScreenShot](assets/images/demo.png)
